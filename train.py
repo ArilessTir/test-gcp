@@ -14,4 +14,4 @@ y_test = test['median_house_value']
 model = LinearRegression()
 model.fit(X_train,y_train)
 
-print(f'model score: {model.score(X,y)}')
+print(f'model score: {model.score(X_test,y_test)}')
